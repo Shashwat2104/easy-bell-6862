@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    background-color: #eee;
+}
+
+
+#signin {
+    margin: 50px auto;
+    width: 400px;
+    margin-top: 87px;
+    height: 322px;
+}
+
+#signin form {
+    margin: auto;
+    padding: 50px 30px 30px 30px;
+    width: 100%;
+    border-radius: 5px;
+    background: whitesmoke;
+    border: 2px solid black;
+    box-shadow: 0 0 12px 6px rgb(0 0 0 / 5%), 0 3px 6px rgb(0 0 0 / 15%);
+    margin-top: 187px;
+    height: 322px;
+}
+
+#signin form span {
+    background-color: white;
+    border-radius: 3px 0px 0px 3px;
+    border-right: 3px solid white;
+    color: #606468;
+    display: block;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+#signin form input[type="email"] {
+    background-color: white;
+    border-radius: 4px;
+    color: #a9a9a9;
+    margin-bottom: 22px;
+    padding: 0 16px;
+    width: 90%;
+    height: 40px;
+}
+
+/* }1em */
+
+#password {
+    background-color: white;
+    border-radius: 4px;
+    color: #a9a9a9;
+    margin-bottom: -3%;
+    padding: 0 16px;
+    width: 90%;
+    height: 40px;
+    position: static;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* #password:hover {
+    text-decoration: underline;
+    color: #2874f0;
+} */
+
+#signin form input[type="submit"] {
+    background: rgb(94, 94, 222);
+    border: 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#signin form input[type="submit"]:hover {
+    background: #16aa56;
+    font-family: 'Poppins', sans-serif;
+}
+
+#monop {
+    font-size: 13px;
+    font-variant-position: inherit;
+    font-family: 'Poppins', sans-serif;
+}
+
+#pmono {
+    text-align-last: right;
+    text-align: top;
+    padding-right: 2%;
+    color: #606468;
+}
+
+#anker {
+    color: rgb(231, 61, 97);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    /* text-decoration: underline; */
+    /* color: #2874f0; */
+}
+
+#anker:hover {
+    text-decoration: underline;
+    color: #2874f0;
+}
+
+.length {
+    margin-top: -10;
+    margin-left: 22%;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+#sighin {
+    padding-left: 16%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+    text-align: center;
+}
+
+/* social icons */
+#social {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.imgS1 {
+    padding-right: 3%;
+    width: 6%;
+    /* border: 2px solid blue; */
+}
+
+.imgS3 {
+    /* border: 2px solid blue; */
+    padding-left: 3%;
+    width: 5.5%;
+}
+
+.imgS2 {
+    /* border: 2px solid blue; */
+    width: 8%;
+}
+
+
+
+
+
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* navbar below */
+
+a {
+    /* border: 2px solid rgb(255, 0, 0); */
+
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+    border: 2px solid rgb(255, 0, 0);
+
+}
+
+::-webkit-scrollbar-track {
+    background: #242526;
+    border: 2px solid rgb(255, 0, 0);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3A3B3C;
+    border: 2px solid rgb(255, 0, 0);
+
+}
+
+
+
+#menu-btn:checked~.btn.menu-btn {
+    display: none;
+}
+
+#close-btn:checked~.btn.menu-btn {
+    display: block;
+}
+
+
+
+#showDrop:checked~.drop-menu,
+#showMega:checked~.mega-box {
+    max-height: 100%;
+}
+
+.drop-menu li {
+    margin: 0;
+}
+
+.drop-menu li a {
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
