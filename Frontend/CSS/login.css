@@ -116,9 +116,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
-#sighin {
+#signup {
     padding-left: 16%;
     font-family: 'Poppins', sans-serif;
+    /* border: 2px solid darkmagenta; */
+}
+
+#signup:hover {
+    text-decoration: underline;
+    color: #2874f0;
 }
 
 h4 {

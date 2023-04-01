@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 body {
     margin: auto;
     text-align: center;
@@ -27,7 +29,7 @@ body {
 
 
 .container button {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: inline-block;
     border: none;
     outline: none;
@@ -103,14 +105,14 @@ body {
 .product-info h2 {
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .product-info p {
     margin: 0.4rem;
     font-size: 1.2rem;
     font-weight: 400;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .price {
@@ -198,7 +200,7 @@ a {
 #signintag>a {
     color:
         #333f48;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: small;
     font-weight: 600;
 
@@ -209,7 +211,7 @@ a {
 }
 
 .signin>div>p>a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-decoration: underline;
     color:
         #333f48;
@@ -218,7 +220,7 @@ a {
 }
 
 #explore {
-    background-color: #333f48;
+    background-color: rgb(231, 61, 97);
     color: white;
     padding: 5px 20px;
     border-color: none;
@@ -228,6 +230,7 @@ a {
 button~h2 {
     margin-top: 50px;
     color: #333f48;
+    font-family: 'Poppins', sans-serif;
 }
 
 #category {
@@ -311,15 +314,17 @@ button~h2 {
 }
 
 #videomash>div>button {
-    background-color: #333f48;
+    background-color: rgb(231, 61, 97);
     width: 40%;
     padding: 4% 4%;
     border-color: none;
+    font-family: 'Poppins', sans-serif;
     border: none;
 }
 
 #videomash>div>button>a {
     font-size: medium;
+    font-family: 'Poppins', sans-serif;
     color: white;
 }
 
@@ -346,8 +351,8 @@ button~h2 {
 }
 
 .carousel-cell {
-    background-color:
-        #333f48;
+    /* background-color:#333f48; */
+    background-color: rgb(121, 121, 228);
     padding-bottom: 0.05%;
     padding-top: 0.03%;
     margin-bottom: 0.5%;
@@ -419,7 +424,7 @@ button~h2 {
     margin: auto;
 
     margin-bottom: 4%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Poppins', sans-serif;
 }
 
 .bestseller i {
@@ -459,7 +464,7 @@ button~h2 {
 }
 
 #normal+a>button {
-    background-color: #333f48;
+    background-color: rgb(231, 61, 97);
     color: white;
     width: 20%;
     padding-top: 2%;
@@ -468,7 +473,7 @@ button~h2 {
     border: none;
     text-align: center;
     font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 1%;
 }
 
@@ -520,7 +525,7 @@ button~h2 {
 }
 
 #pink button {
-
+    font-family: 'Poppins', sans-serif;
     background-color: white;
     color: #333f48;
     border: none;
@@ -533,7 +538,7 @@ button~h2 {
 }
 
 #pink>div>a~a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-decoration: underline;
     color: white;
     text-decoration-color: white;
@@ -556,7 +561,7 @@ button~h2 {
 }
 
 #allcategory a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-decoration: underline;
     color: #333f48;
     text-decoration-color: #333f48;
@@ -626,11 +631,11 @@ h3+hr {
 
 .k>button {
     width: 30%;
-    background-color: #333f48;
+    background-color: rgb(231, 61, 97);
     color: white;
     font-size: large;
     border: none;
-
+    font-family: 'Poppins', sans-serif;
 }
 
 .k {
@@ -709,7 +714,7 @@ h3+hr {
 
 .logoutfunction {
     font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
     /* color:rgb(213,0,50); */
     margin-left: 5%;
     /* text-decoration: none; */
@@ -795,11 +800,12 @@ h3+hr {
     }
 
     #videomash>div>button {
-        background-color: #333f48;
+        background-color: rgb(231, 61, 97);
         width: 60%;
         padding: 4% 4%;
         border-color: none;
         border: none;
+        font-family: 'Poppins', sans-serif;
     }
 
     #allcategory {
@@ -854,13 +860,13 @@ h3+hr {
         width: max-content;
         padding: 8% 13%;
         font-weight: 500;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-size: medium;
         margin-left: -100%;
     }
 
     #pink>div>a~a {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Poppins', sans-serif;
         text-decoration: underline;
         color: white;
         text-decoration-color: white;
@@ -934,11 +940,11 @@ h3+hr {
 
     .k>button {
         width: 30%;
-        background-color: #333f48;
+        background-color: rgb(231, 61, 97);
         color: white;
         font-size: medium;
         border: none;
-
+        font-family: 'Poppins', sans-serif;
     }
 
     .k {
@@ -1057,7 +1063,7 @@ h3+hr {
         border: none;
         width: 160px;
         height: 45px;
-
+        font-family: 'Poppins', sans-serif;
         border-radius: 10%;
         font-weight: 500;
         font-size: large;
@@ -1198,7 +1204,7 @@ h3+hr {
     #pink button {
         text-align: center;
         background-color: white;
-
+        font-family: 'Poppins', sans-serif;
         color: #333f48;
         border: none;
         width: 120px;
@@ -1351,7 +1357,7 @@ h3+hr {
         border-radius: 10%;
         font-weight: 500;
         font-size: 15px;
-
+        font-family: 'Poppins', sans-serif;
     }
 
     #pink>div>a~a {
@@ -1463,7 +1469,7 @@ h3+hr {
     }
 
     #normal+a>button {
-        background-color: #333f48;
+        background-color: rgb(231, 61, 97);
         color: white;
         width: 45%;
         padding-top: 2%;
@@ -1472,7 +1478,7 @@ h3+hr {
         border: none;
         text-align: center;
         font-size: larger;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Poppins', sans-serif;
         margin-bottom: 1%;
     }
 
@@ -1516,7 +1522,7 @@ h3+hr {
         border-radius: 10%;
         font-weight: 400;
         font-size: 13px;
-
+        font-family: 'Poppins', sans-serif;
     }
 
     #pink>div>a~a {

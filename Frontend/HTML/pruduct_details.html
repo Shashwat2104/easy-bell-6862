@@ -5,20 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>New ans Now</title>
+  <title>Product Details</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <script src="https://kit.fontawesome.com/4c52a2fab3.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../CSS/NewandNow.css">
+  <link rel="stylesheet" href="../CSS/pruduct_details.css">
 </head>
 
 <body>
-
   <nav>
     <div class="wrapper">
-      <div class="logo"><a href="../index.html"><img src="../images/logo.png"></a>
+      <div class="logo"><a href="index.html"><img
+            src="https://www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/brand-assets/famous-footwear-logo.svg"></a>
       </div>
       <input type="radio" name="slider" id="menu-btn">
       <input type="radio" name="slider" id="close-btn">
@@ -48,7 +46,7 @@
                 <div class="row">
                   <header>Spotlight On</header>
                   <ul class="mega-links">
-                    <li><a href="men.html">New Arrivals</a></li>
+                    <li><a href="NewandNow.html">New Arrivals</a></li>
                     <li><a href="NewandNow.html">Eco-Conscious Styles</a></li>
                     <li><a href="NewandNow.html">Spring Loafers</a></li>
                   </ul>
@@ -512,117 +510,33 @@
       <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
     </div>
   </nav>
-  <hr />
-  <div id="men_logo">
-    <h2>Shoes's </h2>
-    <h3>All Shoes</h3>
-    <h2></h2>
-  </div>
-  <div id="master">
+  <hr>
+  <br><br><br>
+  <div id="main">
+    <div id="prod_img"></div>
 
-    <div id="name">
-
-
-      <p>1-2 of 56 products</p>
-      <label for="sorting">Sort By</label>
-      <select id="sorting" onchange="handlefilter()">
-        <option value="">Featured</option>
-        <option value="Low">Price : Low To High</option>
-        <option value="High">Price : High To Low</option>
-
-      </select>
-
-      <div style="width: 100%;">
-        <hr>
-      </div>
-
-      <!-- <label for="brand">Brands</label> -->
-      <select id="brand" onchange="handleBrand()">
-        <option value="">Brand</option>
-        <option value="Nike">Nike</option>
-        <option value="Adidas">Adidas</option>
-        <option value="Vans">Vans</option>
-        <option value="Croas">Croas</option>
-        <option value="New Balance">New Balance</option>
-        <option value="Puma">Puma</option>
-      </select>
-
-      <div style="width: 100%;">
-        <hr>
-      </div>
-
-      <!-- <label for="priceE">Prices</label> -->
-      <select id="priceE" onchange="handlePrice()">
-        <option value="">Price</option>
-        <option value="Under">Under 30$</option>
-        <option value="Between_30">30$ to 50$</option>
-        <option value="Between_50">50$ to 75$</option>
-        <option value="above">75$+</option>
-      </select>
-
-      <div style="width: 100%;">
-        <hr>
-      </div>
-
-
-      <select id="rate" onchange="handleRate()">
-        <option value="">Rating</option>
-        <option value="s_1"> 1 Star</option>
-        <option value="s_2"> 2 Star</option>
-        <option value="s_3"> 3 Star</option>
-        <option value="s_4"> 4 Star</option>
-        <option value="s_5"> 5 Star</option>
-      </select>
-
-      <div style="width: 100%;">
-        <hr>
-      </div>
-
-      <!-- <label for="category">Category</label> -->
-      <select id="category" onchange="handlecat()">
-        <option value="">Category</option>
-        <option value="shoes">Shoes</option>
-        <option value="sandals">Sandals</option>
-        <option value="sneakers">Sneakers </option>
-      </select>
-
-      <div style="width: 100%;">
-
-      </div>
-
-
-
-
-      <div style="width: 100%;">
-
-      </div>
-
-      <div style="width: 100%;">
-        <hr>
-      </div>
-
-
-
-    </div>
-    <div id="product">
+    <div id="prod_det">
 
     </div>
   </div>
-  <div id="menshop">
-    <hr>
-    <h1>Shop All Shoes</h1>
-    <p>Famous Footwear is your one-stop shop online for shoes. Whether your looking for running shoes, sandals, boots,
-      work shoes, flats, flip flops or slippers, we have a pair for you..</p>
-    <p>Discover the latest styles of shoes for women, men, girls and boys from your favorite brands. We offer hundreds
-      of styles from Nike, Vans, Converse, Skechers, adidas, Timberland, Crocs and more, so you're bound to find the
-      right shoes!</p>
-    <p>Need your shoes right now? Buy online and pickup in-store or at curbside in about an hour with our Famously Fast
-      Pickup. Or have them delivered straight to your door. Rewards members get free shipping on all orders!</p>
-    <p>Need your shoes right now? Buy online and pickup in-store in about an hour with our Famously Fast Pickup. Or have
-      them delivered straight to your door. Rewards members get free shipping on all orders. Find your next pair of
-      shoes today!</p>
+  <div id="details">
+    <h2>Items Details</h2>
+    <p id="name"></p>
+    <ul>
+      <li id="detail"></li>
+      <li>Flat wide base gives you enhanced stability</li>
+      <li>Foam midsole with a Max Air unit at the heel</li>
+      <li>Traction rubber tread outsole</li>
+      <li>Lace up front</li>
+    </ul>
+  </div>
+  </div>
+  <h2 style="margin: 0px 10%;">WE THINK YOU MAY LIKE</h2>
+  <div id="product">
+
 
   </div>
+
 
 
   <footer>
@@ -712,4 +626,4 @@
 </body>
 
 </html>
-<script src="../JS/NewandNow.js"></script>
+<script src="../JS/product_details.js"></script>
