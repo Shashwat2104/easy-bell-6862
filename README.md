@@ -1,18 +1,13 @@
- 💻Clone Project Name -  ![App Screenshot](https://cdn.fcglcdn.com/brainbees/images/n/fc_logo.png)
+ 💻Clone Project Name -  ![App Screenshot](https://i.postimg.cc/nhbNxwKD/Screenshot-2023-04-02-211919.png)
 ---
 
-Largest Online Baby and Kids Store, is India's largest online shop for new mom and baby products, offering top of the line discounts on renowned national & International brands.This is a collaborative Project from Masai School in the Construct Week With the 4 team members within 5 Days.
+As India's largest online shop for men's, women's, and children's footwear, Solemate offer an extensive collection of top-quality products from renowned national and international brands. Our website provides a user-friendly shopping experience, and we offer unbeatable discounts on all our products. This is a indiual Project from Masai School in the Construct Week within 5 Days.
 ---
-✨Collaboraters Names Are:-
 
-1. Rajesh Kumar- Team Lead
-2. Shashwat Mahendra 
-3. Nikhil Verma
-4. Nithin Jayraj
 
 <br>
 
-💻Unique Project Name & logo :- BaBy Bloom - All Your Baby Need's 
+💻Unique Project Name & logo :- SoleMate - Step Up Your Style.
 
 ![App Screenshot](https://i.postimg.cc/gJTvWQhF/solemate-logo-2.png)
 ---
